@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.nav{
+    height: 18vh;
+    width: 100vw;
+    /* background-color:aqua; */
+    display: flex;
+    justify-content:space-evenly;
+    justify-items: center;
+
+
+}
+.nav a{
+    color: black;
+    font-size: 1vw;
+    display: contents;
+    /* align-items:first baseline; */
+    font-family:Plus Jakarta Sans;
+    
+}
+.nav img{
+    height: 5.8vh;
+    padding-right: 62.5%;
+    margin: 5vh;
+    
+}
+.main{
+    height: 63vh;
+    width: 100vw;
+    /* background-color:rgb(174, 0, 255); */
+}         
+h1{
+    font-family: Plus Jakarta Sans;
+    font-size: 8vw;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+   /* align-self: center; */
+text-align: center;
+
+} 
+.vdo video{
+    width:80vw;
+   position: absolute;
+   right: 19vh;
+}    
+.slider img{
+    height: 5vw; 
+    padding: 0 2vw ;
+    
+}     
+.curo .slider{
+    padding: 47vw 0 0 0;
+    overflow: hidden;
+    animation: 5s slide infinite linear ;
+    
+}  
+.curo {
+   /* white-space: nowrap; */
+   display: inline-block;
+}    
+     @keyframes slide {
+        from{
+            transform: translateX(0);
+        }
+        to{
+            transform: translateX(-100%);
+        }
+     }
+
+     .text{
+        height: 10vh;
+        width: 100%;
+     }
+     .text p{
+        font-size: 2.5em;
+        font-family: plus jakarta sans;
+        font-weight: 400;
+        padding: 0 25vw ;
+        overflow: hidden;
+
+     }
+     .tex2 h1{
+        overflow: hidden;
+        color: rgb(252, 101, 46);
+        
+     }
